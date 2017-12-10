@@ -1,13 +1,13 @@
 package main
 
 import (
-  "fmt"
-  "math"
+    "fmt"
+    "math"
 )
 
 type Point struct {
-  x float64
-  y float64
+    x float64
+    y float64
 }
 
 func norm(a *Point, b *Point) float64 {
@@ -15,8 +15,8 @@ func norm(a *Point, b *Point) float64 {
 }
 
 func main() {
-  p := Point{1.2, 2.5}
-  l := Point{4.2, 5.5}
+    p := Point{1.2, 2.5}
+    l := Point{4.2, 5.5}
 
-  fmt.Println(norm(&p, &l))
+    fmt.Println(norm(&p, &l))
 }
